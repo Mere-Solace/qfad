@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(.venv\\\\Scripts\\\\python.exe -m pytest:*)",
+      "Bash(C:/Users/btm74.000/Projects/finance/.venv/Scripts/python.exe -m pytest:*)",
+      "Bash(C:/Users/btm74.000/Projects/finance/.venv/Scripts/pip.exe show pydantic-settings)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(../.venv/Scripts/python.exe -m uvicorn:*)",
+      "Bash(xargs:*)"
+    ]
+  }
+}
