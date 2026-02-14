@@ -46,4 +46,5 @@ python scripts/build_master_sheet.py # Rebuild workbook only (no API calls)
 ## Environment
 - Python 3.11+
 - `FRED_API_KEY` in `.env` (get one at https://fred.stlouisfed.org/docs/api/api_key.html)
+  - The `.env` file **must** be saved with UTF-8 or ASCII encoding, otherwise the key cannot be parsed.
 - Install deps: `pip install -e .` or `pip install -e ".[dev]"`
